@@ -27,6 +27,13 @@
             <p class="text-xs text-gray-400 mt-2">每月 1 號自動重置</p>
         </div>
 
+     <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4 mb-6 text-left text-sm text-gray-600">
+            <p class="font-bold text-yellow-700 mb-1">💡 審核通過條件：</p>
+            <ul class="list-disc list-inside space-y-1">
+                <li>截圖內容需包含關鍵字：「<span class="text-red-500 font-bold">打卡</span>」</li>
+            </ul>
+        </div>
+        
         <label id="uploadBtn" class="block w-full py-4 px-6 rounded-full text-center font-bold text-white shadow-lg cursor-pointer bg-gray-800 hover:bg-black transition-all active:scale-95">
             <span>📸 上傳打卡截圖</span>
             <input type="file" accept="image/*" class="hidden" onchange="handleFileUpload(this)" />
